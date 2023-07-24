@@ -6,7 +6,7 @@
 .header{
   background-color: #fff;
 }
-.menu{}
+
 .menu ul{
   text-align: center;
   padding: 10px 0px;
@@ -107,15 +107,21 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.about{
-  margin-top: 80px;
+.gallary{
+  margin-top: 80px !important;
+  margin: auto;
 }
 
 .hoverImg{
   overflow: hidden;
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
 }
 .hoverImg img{
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
   transition: .5s;
   height: 100%;
@@ -144,9 +150,9 @@
 .img8 img:hover{
   transform: scale(1.1);
 }
-.img5 img{
+/* .img5 img{
   width: 100%;
-}
+} */
 
 /* about- section */
 .about-section{
@@ -170,7 +176,6 @@
 .btn1{
   transform: rotate(-45deg);
 }
-.btn2{}
 .btn3{
   transform: rotate(45deg);
 }
